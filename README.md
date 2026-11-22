@@ -34,7 +34,7 @@ json
 Уровень 8
 
 Настройка:
-В compose.yaml работают два сервиса: app и redis. Приложение использует STORAGE=redis и REDIS_URL=redis://redis:6379/0. Данные Redis сохраняются в volume redis-data. Добавлены healthcheck для обоих сервисов.
+В compose.yaml работают два сервиса: app и redis. Данные Redis сохраняются в volume redis-data.
 
 Проверки:
 
